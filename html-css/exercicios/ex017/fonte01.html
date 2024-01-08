@@ -7,11 +7,28 @@
     <style>
         body{
             font-family: 'Courier New', Courier, monospace;
+            /* 
+            Medidas Absolutas: cm, mn, in, px, pt, pc
+            Medidas relativas: em, ex, rem, vw, vh, %
+            Recomendado usar: px ou em
+            */
+            font-size: 16px; /*Tamanho da fonte*/
+            font-weight: 800; /*Peso da fonte*/
+            font-style: italic; 
+            text-decoration: underline; /*Sublinhado*/
         }
 
-        h1,h2 {
-            font-family: 'Times New Roman', Times, serif;
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            /* Shorthand font - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
         }
+
+        
     </style>
 </head>
 <body>
