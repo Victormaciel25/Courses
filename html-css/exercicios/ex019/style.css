@@ -24,6 +24,20 @@ h1#principal {
     color: white;
 }
 
-h2.basico {
-    
+.basico {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.intermediario {
+    color: blue;
+}
+
+.avançado {
+    color: red;
+}
+
+.destaque {
+    background-color: white;
 }
